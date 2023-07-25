@@ -68,7 +68,11 @@ const style = StyleSheet.create({
     top: -60,
   },
 
-  addUser: { position: "absolute", top: 20, left: "50%" },
+  addUser: {
+    position: "absolute",
+    top: 20,
+    left: 203,
+  },
 
   input: {
     borderWidth: 1,
