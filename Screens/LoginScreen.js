@@ -18,6 +18,7 @@ const LoginScreen = () => {
       <TouchableOpacity style={style.button}>
         <Text style={style.buttonText}>Увійти</Text>
       </TouchableOpacity>
+      <Text style={style.titleQuestion}>Немає акаунту? Зареєструватися</Text>
     </View>
   );
 };
@@ -29,6 +30,12 @@ const style = StyleSheet.create({
     width: "100%",
     paddingLeft: 16,
     paddingRight: 16,
+    paddingTop: 32,
+    paddingBottom: 120,
+    backgroundColor: "rgba(255, 255, 255, 1)",
+    borderTopLeftRadius: 25,
+    borderTopRightRadius: 25,
+    position: "relative",
   },
   title: {
     fontFamily: "Roboto-Medium",
@@ -37,6 +44,10 @@ const style = StyleSheet.create({
     lineHeight: 35.16,
     textAlign: "center",
     marginBottom: 33,
+  },
+  titleQuestion: {
+    color: "#1B4371",
+    textAlign: "center",
   },
   input: {
     borderWidth: 1,

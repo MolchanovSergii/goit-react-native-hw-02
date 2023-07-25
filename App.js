@@ -22,8 +22,8 @@ export default function App() {
         style={styles.image}
       >
         <RegistrationScreen />
-        {/* <LoginScreen />
-      <PostsScreen /> */}
+        {/* <LoginScreen /> */}
+        {/* <PostsScreen /> */}
       </ImageBackground>
     </View>
   );
